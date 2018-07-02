@@ -1,0 +1,300 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    border-bottom: 2px solid #3a404a;
+    background: #25272e;
+    color: white;
+}
+.wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.info{
+    display: inline-flex;
+}
+.logo h1 span {
+    display: block;
+    font-weight: 400;
+
+}
+. logo h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    display: block;
+}
+.logo .info p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.logo .info span {
+    font-weight: normal;
+}
+
+.name{
+    list-style: none;
+    margin-top: 100px;
+    padding-top: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    display: block;
+}
+
+.menu {
+    list-style: none;
+    margin-top: 100px;
+    padding-top: 30px;
+}
+.menu li {
+    float: right;
+    margin-right: 20px;
+
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+
+}
+.menu li a:hover{
+    background: #6f7786;
+    color: black;
+
+}
+.body{
+    font-family: Arial, sans-serif;
+    display: block;
+}
+
+
+.photo{
+    float: left;
+    padding-left: 10px;
+    padding-right: 20px;
+    border:2px;
+}
+.Headblock {
+   display:  flex;
+   justify-content: space-between;
+}
+
+
+.info .Headblock {
+    display:  flex;
+    justify-content: space-between;
+    height: 400px;
+}
+.content {
+    display: flex;
+}
+.block1{
+    margin: 40px;
+}
+.information {
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px solid #379671;
+}
+.h2 {
+    padding-bottom: 20px;
+    height: 80px;
+    padding-top: 40px;
+}
+.main {
+    padding-top: 50px
+}
+
+
+
+
+/* Footer*/
+
+.footer {
+    height: 500px;
+    color: white;
+    background: #25272e;
+    color:white;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+
+
+}
+.list1 {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+.list1 {
+    list-style-type: none;
+    padding-left: 0;
+}
+.list1 li {
+    margin-right: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.list1 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.list1 li a:hover{
+    border-bottom: 2px solid #379671;
+    color: #379671;
+}
+
+.list2 {
+    list-style-type: none;
+    padding-left: 0;
+}
+.list2 li {
+    margin-right: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.list2 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.list2 li a:hover{
+    border-bottom: 2px solid #379671;
+    color: #379671;
+}
+
+
+.list3 {
+    list-style-type: none;
+    padding-left: 0;
+}
+.list3 li {
+    margin-right: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.list3 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.list3 li a:hover{
+    border-bottom: 2px solid #379671;
+    color: #379671;
+}
+
+.text {
+    text-align: center;
+    border:  #379671;
+    height: 80px;
+    border-top: 2px solid #379671;
+    padding-top: 40px;
+
+}
+.social{
+    list-style: none;
+    display: flex;
+
+}
+.social li {
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+.social li a:hover{
+    border-bottom: 2px solid #379671;
+    color: #379671;
+}
+
+
+.clear {
+    clear: both;
+}
+.footer .container2{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;}
+
+
+.col {
+    float: left;
+    width: 33%;
+    padding: 40px;
+    box-sizing: border-box;
+
+
+
+}
+.content2{
+    height:420px;
+    display: flex;
+    justify-content: space-between;
+    margin:10px 100px;
+    background: #25272e;
+}
+
+.price-box {
+    background: white;
+    list-style-type: none;
+    color: #25272e;
+    border: 1px solid #555;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+.price-box:hover {
+    box-shadow: 0 10px 15px 0 #000;
+}
+.price-box .header01 {
+    background: black;
+    color: #fff;
+    font-size: 25px;
+}
+.price-box li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+.price-box .emph {
+    background: #f4f4f4;
+    font-size: 20px;
+}
+.buttom{
+    background: #379671;
+    border-bottom: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: right;
+    text-decoration: none;
+    font-size: 18px;
+}
+@media(max-width:720px){
+     .col{
+         width:100%;
+     }
+ }
+.header-for-col{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+
+
